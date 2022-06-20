@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width==, initial-scale=1.0">
+    <title>Simran Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* css reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(https://wallpaperaccess.com/full/1244680.jpg) no-repeat center center/cover;
+            position: relative;
+            top:0px;
+            left:0px;
+            width: 100%;
+            height:100%;
+            z-index: -1;
+            
+
+            /* height: 1200px; */
+            background-image: center;
+            color: white
+        }
+
+        .left {
+            position: absolute;
+            left: 34px;
+            top: 12px;
+            /* border: 2px solid red; */
+            display: inline-block;
+
+        }
+
+        .left img {
+            width: 83px;
+            filter: invert(100);
+        }
+
+        .left div {
+            text-align: center;
+            margin-top: -7px;
+        }
+
+        .mid {
+            display: block;
+            width: 38%;
+            padding: 0px;
+            padding-right: 79px;
+            margin: 12px auto;
+            /* border: 2px solid red; */
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 12px;
+            /* border: 2px solid red; */
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            color: white;
+        }
+
+        .navbar li a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 6px 11px;
+        }
+
+        .navbar li a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .btn:hover {
+            color: grey;
+        }
+
+        .btn {
+            padding: 4px 8px;
+            margin: 17px 13px;
+            color: white;
+            background: black;
+            border:2px solid grey;
+            border-radius: 10px;
+            cursor: pointer
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 52px 31px;
+            padding: 75px 65px;
+            border-radius: 32px;
+            width: 28%;
+        }
+        .container h1{
+            font-size: 26px;
+        }
+        .form-group input{
+            text-align: center;
+            margin:6px 32px;
+            padding: 12px 45px;
+
+
+        }
+        .container button{
+            margin: 18px 33px;
+            padding: 8px 105px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://i.pinimg.com/474x/1b/f4/91/1bf4911955f9de8aed0f9ab2e6e196ab.jpg" alt="FITNESS">
+            <div>Simran Fitness</div>
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact Us</a></li>
+
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone no">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+
+</body>
+
+</html>
